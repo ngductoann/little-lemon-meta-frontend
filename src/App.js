@@ -10,11 +10,14 @@ function App() {
 		<>
 			<Layout>
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/home" element={<Home />} />
-					<Route path="/reservations" element={<Reservations />} />
+					<Route path="/little-lemon-meta-frontend/" element={<Home />} />
+					<Route path="/little-lemon-meta-frontend/home" element={<Home />} />
 					<Route
-						path="/confirmedReservation"
+						path="/little-lemon-meta-frontend/reservations"
+						element={<Reservations />}
+					/>
+					<Route
+						path="/little-lemon-meta-frontend/confirmedReservation"
 						element={<ConfirmedReservation />}
 					/>
 					<Route path="*" element={<NotFound />} />

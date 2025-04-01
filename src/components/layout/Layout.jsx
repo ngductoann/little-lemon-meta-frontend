@@ -5,32 +5,32 @@ const Layout = ({ children }) => {
 	const navLinks = [
 		{
 			name: "Home",
-			path: "/#home",
+			path: "/little-lemon-meta-frontend/#home",
 			hashLink: true,
 		},
 		{
 			name: "About",
-			path: "/#about",
+			path: "/little-lemon-meta-frontend/#about",
 			hashLink: true,
 		},
 		{
 			name: "Menu",
-			path: "/#menu",
+			path: "/little-lemon-meta-frontend/#menu",
 			hashLink: true,
 		},
 		{
 			name: "Reservations",
-			path: "/reservations",
+			path: "/little-lemon-meta-frontend/reservations",
 			hashLink: false,
 		},
 		{
 			name: "Order Online",
-			path: "/orderOnline",
+			path: "/little-lemon-meta-frontend/orderOnline",
 			hashLink: false,
 		},
 		{
 			name: "Login",
-			path: "/login",
+			path: "/little-lemon-meta-frontend/login",
 			hashLink: false,
 		},
 	];
